@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>tailwind </title>
+</head>
+
+<body>
+    <header class="h-12 bg-white flex justify-around align-middle sticky top-0 z-50 p-3">
+        <div class="logo">
+            <p>✦ Project</p>
+        </div>
+        <div class="w-2xl h-2.5">
+            <ul class=" cursor-pointer flex flex-row justify-around align-middle">
+                <li>Product</li>
+                <li>Solutions</li>
+                <li>Resourses</li>
+                <li>Pricing</li>
+                <li class="font-bold">Log in</li>
+                <li><button class=" cursor-pointer bg-black text-white w-25 h-8">Get AI Free</button></li>
+            </ul>
+        </div>
+    </header>
+    <main class="bg-orange-100 h-132 flex items-center flex-col">
+        <div class="pt-2 font-bold text-3xl">
+            <h1 class="flex justify-center">Write,plan,share.</h1>
+            <h1>With AI at your side.</h1>
+        </div>
+        <div>
+            <p class="pt-1.5 ">It is the better connected workspace where better, faster work happens. Now with AI</p>
+        </div>
+    </main>
+    <div class=" absolute flex text-white  justify-between top-50 right-110 w-65.5">
+        <button class=" w-30 h-10 cursor-pointer bg-black">Get AI Free →</button>
+        <button class="w-35 bg-blue-700 cursor-pointer">Request a Demo</button>
+    </div>
+    <img class="absolute h-40 top-70 left-110"
+        src="https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWl8ZW58MHx8MHx8fDA%3D"
+        alt="img">
+
+
+    <div
+        class="shadow-lg w-30 absolute rounded-[10px] flex-row justify-center items-center bg-white bottom-40 left-50 h-[40px] text-[10px]">
+        <p class="flex justify-center gap-1 items-center w-30 "><ion-icon class="bg-pink-100 text-pink-300"
+                name="newspaper-outline"></ion-icon>Tasks</p>
+        <p>12 Tasks completed today</p>
+    </div>
+    <div
+        class="shadow-lg w-30 absolute rounded-[10px] flex-row justify-center items-center bg-white bottom-80 right-50 h-[40px] text-[10px]">
+        <p class="flex justify-center gap-1 items-center w-30"><ion-icon class="bg-green-200 text-green-700" name="checkmark-outline"></ion-icon> Project Status</p>
+        <p class="pl-0.5 text-green-400">On track</p>
+    </div>
+    <div class="shadow-lg w-30 absolute rounded-[10px] flex-row justify-center items-center bg-white bottom-40 right-50 h-[40px] text-[10px]">
+        <p class="flex justify-center items-center w-30">Team Activity</p>
+        <div class="flex pl-1">
+            <img class="h-5" src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fHww" alt="img">
+            <img class="h-5" src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww" alt="img">
+            <img class="h-5" src="https://plus.unsplash.com/premium_photo-1678197937465-bdbc4ed95815?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29ufGVufDB8fDB8fHww" alt="img">
+            <p>+5 online</p>
+        </div>
+        
+    </div>
+    <div class="fixed bottom-5 right-5 z-50 h-[50px] w-[50px] bg-black flex items-center justify-center">
+        <ion-icon class="text-white bg-black " name="cloudy"></ion-icon>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
